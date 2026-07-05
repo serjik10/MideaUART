@@ -137,7 +137,7 @@ class ApplianceBase {
   // Appliance type
   ApplianceType m_appType;
   // Appliance protocol
-  uint8_t m_protocol{};
+  uint8_t m_protocol{3};
   // Period flag
   bool m_isBusy{};
 
